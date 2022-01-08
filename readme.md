@@ -1,3 +1,7 @@
 ## Implementation of Flood Fill Algorithm for Path Planning From Source to Destination
 
-![MarineGEO circle logo](Path.png "Output")
+### Input Maze: 
+![Maze](test1.png "Input")
+
+### Output Path: 
+![Path](Path.png "Output")

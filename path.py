@@ -36,8 +36,8 @@ def draw_path(i,j,dp,img,n,m):
     else:
         draw_path(i,j+1,dp,img,n,m)
 
-n = int(input('Number Of Rows In THe Picture: '))
-m = int(input('Number Of Columns In THe Picture: '))
+n = int(input('Number Of Rows In The Picture: '))
+m = int(input('Number Of Columns In The Picture: '))
 img_path = input('Name of the file: ')
 imgog = cv.imread(img_path)
 img = cv.resize(imgog, (n,m), interpolation = cv.INTER_AREA)
